@@ -34,16 +34,14 @@ Cake successfully retrieved.
   "message":"Channels will follow",
   "data":[
     {
-      "calleridname":"896",         //主叫名称
-      "calleridnum":"896",          //主叫号码
-      "channel":"SIP/896-0000000b",	//主叫通道
-      "channelstate":"6",
-      "channelstatedesc":"Up",
-      "connectedlinename":"897",    //被叫名称
-      "connectedlinenum":"897",	    //被叫号码
-      "context":"macro-stdexten-withoutvm",
-      "duration":"00:02:58",        //通话时长
-      "exten":"s"
+      "calleridname":"896",     				//主叫名称
+      "calleridnum":"896",      				//主叫号码
+      "channel":"SIP/896-0000000b",   		    //主叫通道
+      "channelstate":"6",						//通道当前状态码
+      "channelstatedesc":"Up",				    //通道当前状态
+      "connectedlinename":"897",    			//被叫名称
+      "connectedlinenum":"897",     			//被叫号码
+      "duration":"00:02:58",      			    //通话时长
     }
   ]
 }
